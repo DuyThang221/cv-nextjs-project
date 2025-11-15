@@ -220,7 +220,7 @@ export default function CVPage() {
 
               {section.type === "contact" && (
                 <div className="space-y-3">
-                  {section.contactItems.map((item, cIdx) => (
+                  {section.contactItems && section.contactItems.map((item, cIdx) => (
                     <div key={cIdx} className="flex items-center space-x-3">
                       <item.icon className="w-5 h-5 text-blue-700" />
                       <a href={item.link || '#'} className="text-gray-700 hover:underline">{item.text}</a>
