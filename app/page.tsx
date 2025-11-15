@@ -22,7 +22,7 @@ const cvData = {
     skills: [
       { type: "Ngôn ngữ lập trình", items: ["C++, Python, JavaScript"] },
       { type: "Cơ sở dữ liệu", items: ["MySQL, PostgreSQL, MongoDB"] },
-      { type: "Frameworks/Thư viện", items: ["Node.js, Express, React, Spring Boot (Cần bổ sung nếu có)"] },
+      { type: "Frameworks/Thư viện", items: ["Node.js, Express, React, Spring Boot"] },
       { type: "Công cụ & Khác", items: ["Git, Docker (Cơ bản), AWS (Cơ bản)"] }
     ],
     hobbies: [
