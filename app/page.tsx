@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Globe, Briefcase, GraduationCap, Code, Star, Heart
 
 const cvData = {
   name: "LÊ DUY THẮNG",
-  title: "KỸ SƯ CÔNG NGHỆ VẬT LÝ ĐIỆN TỬ VÀ TIN HỌC",
+  title: "CÔNG NGHỆ VẬT LÝ ĐIỆN TỬ VÀ TIN HỌC",
   contactHeader: [
     { icon: Mail, text: "leduythang2010@gmail.com", link: "mailto:leduythang2010@gmail.com" },
     { icon: Phone, text: "(+84) 344 702 605", link: "tel:+84344702605" },
