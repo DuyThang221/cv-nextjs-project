@@ -75,8 +75,9 @@ const cvData = {
         {
           period: "Từ 2022 đến nay (6 đợt)",
           company: "Cộng tác viên - Ngày hội Sinh viên và Doanh nghiệp",
-          position: "Hỗ trợ doanh nghiệp và các bạn sinh viên, góp phần tạo cầu nối giữa doanh nghiệp và sinh viên trong trường, hỗ trợ lan tỏa thông tin tuyển dụng và định hướng nghề nghiệp."
-        }
+          position: "Hỗ trợ doanh nghiệp và các bạn sinh viên, góp phần tạo cầu nối giữa doanh nghiệp và sinh viên trong trường, hỗ trợ lan tỏa thông tin tuyển dụng và định hướng nghề nghiệp.",
+          description: "" 
+}
       ]
     },
     {
