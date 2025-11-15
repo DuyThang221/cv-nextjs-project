@@ -85,9 +85,9 @@ const cvData = {
       icon: Mail,
       type: "contact",
       contactItems: [
-        { icon: Mail, text: "leduythang2010@gmail.com" },
-        { icon: Phone, text: "(+84) 344 702 605" },
-        { icon: MapPin, text: "Dĩ An, Bình Dương" },
+        { icon: Mail, text: "leduythang2010@gmail.com", link: "mailto:leduythang2010@gmail.com" }, 
+        { icon: Phone, text: "(+84) 344 702 605", link: "tel:+84344702605" }, 
+        { icon: MapPin, text: "Dĩ An, Bình Dương", link: "#" }, 
       ]
     }
   ]
