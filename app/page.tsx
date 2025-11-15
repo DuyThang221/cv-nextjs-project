@@ -205,7 +205,7 @@ export default function CVPage() {
 
               {section.type === "experience" && (
                 <div className="space-y-6">
-                  {section.experiences.map((exp, expIdx) => (
+                  {section.experiences && section.experiences.map((exp, expIdx) => (
                     <div key={expIdx} className="relative pl-6 border-l-2 border-blue-200">
                       <span className="absolute -left-3 top-0 w-5 h-5 bg-blue-500 rounded-full flex items-center justify-center text-white text-xs font-bold"></span>
                       <p className="text-sm text-gray-500">{exp.period}</p>
