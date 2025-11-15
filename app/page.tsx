@@ -184,7 +184,7 @@ export default function CVPage() {
 
               {section.type === "projects" && (
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {section.projects.map((project, pIdx) => (
+                  {section.projects && section.projects.map((project, pIdx) => (
                     <div key={pIdx} className="border border-blue-100 rounded-lg p-4 bg-white shadow-sm hover:shadow-md transition-shadow">
                       <h3 className="text-lg font-semibold text-blue-800">{project.name}</h3>
                       <p className="text-gray-600 text-sm mt-1 mb-2">{project.description}</p>
